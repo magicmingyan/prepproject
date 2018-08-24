@@ -1,0 +1,38 @@
+import random
+a = ['blue', 'red', 'green', 'yellow', 'brown', 'black']
+
+def print_winning():
+    print ("You won! Would you like to play another roung?")
+    next_round = input("Y/N >" )
+
+
+def print_lossing():
+    print ("You won! Would you like to play another roung?")
+    next_round = input("Y/N >" )
+
+def print_instructions():
+    print("This is the hangperson game!")
+    print()
+
+def game():
+    word = random.choice(a)
+
+
+
+
+# high level
+generate random word
+make ghost word
+make ghost man
+
+for length of the word
+ask user for a letter
+match letter to the word
+if match
+	update ghost word
+if not match
+	update the man
+
+if won, then won!
+if not, then lose
+
